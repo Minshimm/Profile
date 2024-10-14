@@ -1,0 +1,39 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+
+body.light {
+    background-image: url('https://t3.ftcdn.net/jpg/05/22/33/58/240_F_522335803_roZlEZQQJPPYaly4MrxookiqK1aOJr7H.jpg');
+  
+}
+
+
+body.dark {
+     background-image: url('https://miro.medium.com/v2/resize:fit:1400/0*NBb26IPKVFcWDvRp');
+   
+}
+
+/* Header and Footer Styling for Light/Dark Modes */
+.header.light, .footer.light {
+    background-color: white;
+    color: #212529;
+}
+
+.header.dark, .footer.dark {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+/* Additional Styling for Components in Light/Dark Modes */
+.navbar.light {
+    background-color: white /* Light mode navbar background */
+}
+
+.navbar.dark {
+    background-color: #343a40; /* Dark mode navbar background */
+}
+
